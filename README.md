@@ -1,2 +1,2 @@
-# Java-
-Nesse repositório só terá projetos que foram usados Java 
+# JavaScript
+Nesse repositório só terá projetos que foram usados JavaScript
