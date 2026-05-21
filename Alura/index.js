@@ -73,16 +73,48 @@
 //     console.log(`${nome} você é de menor e não pode entrar na festa!`);
 // }
 
-temperatura = 10;
+// temperatura = 10;
 
-if (temperatura >= 30){
-    console.log('Está muito quente, use roupas leves e beba bastante água!');
-}else if (temperatura >= 20){
-    console.log('O clima está agradável, aproveite o dia!');
-}else{
-    console.log('Está frio, vista-se adequadamente e mantenha-se aquecido!');
+// if (temperatura >= 30){
+//     console.log('Está muito quente, use roupas leves e beba bastante água!');
+// }else if (temperatura >= 20){
+//     console.log('O clima está agradável, aproveite o dia!');
+// }else{
+//     console.log('Está frio, vista-se adequadamente e mantenha-se aquecido!');
+// }
+
+dias= 6;
+
+switch (dias) {
+    case 1:
+        console.log('Segunda-feira');
+        break;
+    case 2:
+        consele.log('terça-feira');
+        break;
+    case 3:
+        console.log('quarta-feira');
+        break;
+    case 4:
+        console.log('quinta-feira');
+        break;
+    case 5:
+        console.log('sexta-feira');
+        break;
+    case 6:
+        console.log('sábado');
+        break;
+    case 7:
+        console.log('domingo');
+        break;
+        default:
+        console.log('Número inválido, por favor insira um número entre 1 e 7');
+        break;
 }
+    if (dias == 1 || dias == 5){    
+        console.log('A loja esta aberta, Aproveite para fazer suas compras!');
+    }else{
+        console.log('A loja esta fechada, volte durante a semana!');
+    }    
 
-
-
-
+    
