@@ -25,11 +25,64 @@
 // }
 
 
-const ano = 2025;
+// const ano = 2025;
 
-if ((ano % 4 === 0) && (ano % 100 !== 0) || ano % 400 === 0) {
-    console.log(`${ano} é bissexto`);
-}else{
-    console.log(`${ano} não é bissexto `);
+// if ((ano % 4 === 0) && (ano % 100 !== 0) || ano % 400 === 0) {
+//     console.log(`${ano} é bissexto`);
+// }else{
+//     console.log(`${ano} não é bissexto `);
     
+// }
+
+// const numero = 10;
+
+// switch (numero) {
+//     case 5:
+//         console.log('O número é 5');
+//         break;
+//     case 10:
+//         console.log('o numero é 10');
+//         break;
+//     case 15:
+//         console.log('o numero é igual a 15');
+//         break;
+//     default:
+//         console.log('o numero é diferente de 5, 10 e 15');
+//         break;    
+// }
+
+// const nome = "enzo";
+// const nota = 6;
+// const falta = 1;
+
+// if (nota >= 7 && falta <= 3) {
+//     console.log(`${nome} foi aprovado!`);
+// }else if (nota >= 5 && falta <= 3) {
+//     console.log(`${nome} está de recuperação!`);
+// }
+// else{
+//     console.log(`${nome} foi reprovado!`);
+// }
+
+// const nome = 'daniel';
+// const idade = 19;
+
+// if (idade >= 18){
+//     console.log(`${nome} você é maior de idade e pode entrar na festa!`);
+// }else{
+//     console.log(`${nome} você é de menor e não pode entrar na festa!`);
+// }
+
+temperatura = 10;
+
+if (temperatura >= 30){
+    console.log('Está muito quente, use roupas leves e beba bastante água!');
+}else if (temperatura >= 20){
+    console.log('O clima está agradável, aproveite o dia!');
+}else{
+    console.log('Está frio, vista-se adequadamente e mantenha-se aquecido!');
 }
+
+
+
+
